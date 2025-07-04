@@ -1,0 +1,23 @@
+*{
+
+
+margin:opx;
+padding:0px;
+}
+
+body{
+background:orange;
+display:flex;
+height:100vh;
+align-items:center;
+justify-content:center;
+}
+p{
+color:yellow;
+}
+
+h1{
+color:red;
+}
+h2{
+color: white;
