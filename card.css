@@ -14,7 +14,7 @@ justify-content:center;
 }
 
 .card{
-background:white;
+background:orange;
 border-radius:15px;
 width:300px;
 text-align:center;
@@ -25,7 +25,7 @@ position:relative;
 width:200px;
 height:200px;
 margin-top:20px;
-border-radius:50%;
+border-radius:20%;
 
 }
 .card-body{
@@ -34,4 +34,23 @@ padding:15px;
 }
 .card-body h2{
 margin-bottom:5px;
+}
+.card-body p{
+color:red;
+padding:15px;
+}
+.card-footer{
+background:orange ;
+padding:15px;
+transition:all 0.5s ease;
+opacity:0;
+transform: translatey(40px);
+visibility:hidden;
+}
+.card:hover .card-footer{
+opacity:1;
+transform:translatey(0px);
+visibility: visible;
+
+
 }
